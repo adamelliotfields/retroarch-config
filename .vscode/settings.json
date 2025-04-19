@@ -1,0 +1,8 @@
+{
+  "powershell.integratedConsole.showOnStartup": false,
+  "files.associations": {
+    "*.lpl": "json",
+    "*.opt": "properties",
+    "*.slangp": "properties"
+  }
+}
