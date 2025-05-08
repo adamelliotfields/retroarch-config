@@ -1,8 +1,13 @@
 {
-  "powershell.integratedConsole.showOnStartup": false,
   "files.associations": {
     "*.lpl": "json",
     "*.opt": "properties",
     "*.slangp": "properties"
+  },
+  "powershell.integratedConsole.showOnStartup": false,
+  "[powershell]": {
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
   }
 }
