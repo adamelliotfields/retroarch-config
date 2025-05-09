@@ -1,0 +1,44 @@
+shaders = 5
+
+shader0 = shaders_slang/edge-smoothing/xbrz/shaders/2xbrz.slang
+wrap_mode0 = "clamp_to_edge"
+srgb_framebuffer0 = "true"
+filter_linear0 = false
+scale_type0 = source
+scale0 = 2.00
+
+shader1 = shaders_slang/interpolation/shaders/lanczos3-y.slang
+wrap_mode1 = "clamp_to_edge"
+srgb_framebuffer1 = "true"
+filter_linear1 = false
+scale_type_x1 = source
+scale_type_y1 = viewport
+scale1 = 1.00
+
+shader2 = shaders_slang/interpolation/shaders/lanczos3-x.slang
+wrap_mode2 = "clamp_to_edge"
+srgb_framebuffer2 = "true"
+filter_linear2 = false
+scale_type2 = viewport
+scale2 = 1.00
+
+shader3 = shaders_slang/crt/shaders/dotmask.slang
+wrap_mode3 = "clamp_to_edge"
+filter_linear3 = false
+scale_type3 = viewport
+scale3 = 1.00
+
+shader4 = shaders_slang/crt/shaders/torridgristle/Brighten.slang
+wrap_mode4 = "clamp_to_edge"
+filter_linear4 = false
+scale_type4 = viewport
+scale4 = 1.00
+
+parameters = "LANCZOS3_ANTI_RINGING;DOTMASK_STRENGTH;maskDark;maskLight;BrightenLevel;BrightenAmount"
+LANCZOS3_ANTI_RINGING = 1.00
+DOTMASK_STRENGTH = 0.30
+maskDark = 0.60
+maskLight = 1.40
+shadowMask = 5.00
+BrightenLevel = 2.00
+BrightenAmount = 0.30
