@@ -4,7 +4,7 @@
 
 ## Scripts
 
-- [`install.ps1`](./scripts/install.ps1) - Symlinks the contents of [`config`](./retroarch/config/) to a provided RetroArch installation.
+- [`install.ps1`](./scripts/install.ps1) - Symlinks the contents of [`retroarch`](./retroarch/) to a provided RetroArch installation.
 - [`mirror.ps1`](./scripts/mirror.ps1) - Wrapper around [`robocopy /mir`](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) with `-WhatIf` support.
 - [`uninstall.ps1`](./scripts/uninstall.ps1) - Undoes `install.ps1`.
 
