@@ -41,3 +41,7 @@ The first uses [`2xBRZ`](https://github.com/libretro/slang-shaders/blob/master/e
 For cores that do internal scaling, I use [`lanczos2-5-taps`](https://github.com/libretro/slang-shaders/blob/master/interpolation/shaders/lanczos2-5-taps.slang) interpolation instead.
 
 Finally, both apply torridgristle's [`SinPhosphor`](https://github.com/libretro/slang-shaders/blob/master/crt/shaders/dotmask.slang) mask and [`Brighten`](https://github.com/libretro/slang-shaders/blob/master/crt/shaders/torridgristle/Brighten.slang) pass.
+
+## Notes
+
+I install to `/RetroArch-Win64` so I can run `winget upgrade retroarch` to update.
